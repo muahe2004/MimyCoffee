@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimy coffee</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/responsiveTK.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="./jquery.js"></script>
+    <script src="./login.js"></script>
+</head>
+<body>
+    <div class="form-login">
+        <!-- <img src="./assets/img/login.png" alt=""> -->
+
+        <form action="">
+            <!-- Group 1 -->
+            <div class="form-group">
+                <label for="taikhoan" class="form-label">Tài khoản</label>
+                <input name="taikhoan" type="text" id="taikhoan" class="form-input" placeholder="Nhập tài khoản..">
+                <p class="form-error">Vui lòng nhập tài khoản </p>
+            </div>
+
+            <!-- Group 2 -->
+            <div class="form-group">
+                <label for="matkhau" class="form-label">Mật khẩu</label>
+                <input name="matkhau" type="text" id="matkhau" class="form-input" placeholder="Nhập mật khẩu..">
+                <p class="form-error">Mật khẩu phải >= 6 kí tự</p>
+            </div>
+
+            <!-- Group 3 -->
+            <div class="form-group">
+                <label for="nhaplaimatkhau" class="form-label">Nhập lại mật khẩu</label>
+                <input name="nhaplaimatkhau" type="text" id="nhaplaimatkhau" class="form-input" placeholder="Nhập lại mật khẩu..">
+                <p class="form-error">Mật khẩu không trùng khớp</p>
+            </div>
+
+            <!-- Button -->
+            <div class="action">
+                <button class="form-btn"><a href="login.html">Đăng nhập</a></button>
+                <button class="form-btn"><a href="signup.html">Đăng ký</a></button>
+                <button class="form-btn"><a href="admin.html">Admin</a></button>
+                <button class="form-btn"><a href="index.html">Trang chủ</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

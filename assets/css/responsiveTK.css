@@ -1,0 +1,62 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    
+}
+
+
+/* Tablet and mobile*/
+@media screen and (max-width: 991.98px) {
+    img {
+        display: none;
+    }
+
+    .form-login {
+        width: 90%;
+        justify-content: center;
+    }
+
+    form {
+        /* border: 1px solid #000080; */
+        width: 80%;
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+    .action {
+        margin-top: 10px;
+    }
+
+    .form-btn {
+        padding: 0;
+    }
+} 
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 990.98px){
+    .action {
+        display: flex;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    .form-login {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    form {
+        border: 1px solid #000080;
+        
+    }
+
+    .form-btn {
+        margin-bottom: 10px;
+    }
+
+    .action {
+        display: block;
+        width: 100%;
+    }
+}

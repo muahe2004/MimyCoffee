@@ -1,0 +1,271 @@
+.body {
+    height: 100vh;
+}
+
+
+
+.main-content {
+    display: flex;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.catalog {
+    width: 20%;
+    height: 100%;
+}
+
+.catalog-item {
+    height: 10%;
+    /* background: red; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.catalog-item a {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    height: 100%;
+    /* text-align: center; */
+    background: #000080;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    transition: .25s;
+}
+
+.catalog-item a:hover {
+    opacity: 0.9;
+}
+
+/* ================================ */
+
+.infor {
+    width: 80%;
+    /* background: red; */
+    height: 100%;
+    /* display: flex; */
+}
+
+.body {
+    display: flex;
+    height: calc(100% - 80px);
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    background: #ececef;
+    height: 60px;
+    /* margin-left: auto; */
+    /* margin-right: 0; */
+    /* text-align: right; */
+    justify-content: space-between;
+    margin-left: auto;
+    display: flex;
+}
+
+.toggle-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background: green; */
+    padding: 10px;
+    width: 69%;
+}
+
+.search-svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.search-input {
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: 1px solid #000080;
+    border-radius: 99px;
+    padding: 10px 10px 10px 50px;
+    font-size: 24px;
+}
+
+.search-btn {
+    font-size: 24px;
+    color: #fff;
+    height: 20px;
+    align-items: center;
+    display: flex; 
+    position: absolute;
+    right: 10px;
+    background: #000080;
+    padding: 10px 30px;
+    border-radius: 0 99px 99px 0;
+    cursor: pointer;
+    border: 1px solid #000080;
+    transition: .25s;
+}
+
+.search-btn:hover {
+    opacity: 0.9;
+}
+
+.notification {
+    align-items: center;
+    display: flex;
+    color: #000080;
+    position: relative;
+}
+
+.notif {
+    position: absolute;
+    color: #fff;
+    background: red;
+    padding: 5px;
+    border-radius: 50%;
+    top: 5px;
+    right: -10px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.account-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.account-name {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #000080;
+}
+
+.orders {
+    margin: 20px 0 0 0;
+    /* margin-top: 20px; */
+    width: 70%;
+    /* height: 100%; */
+    /* height: calc(100% - 80px); */
+    /* background: yellow; */
+    /* padding: 10px 10px 0 10px; */
+    padding: 0 25px 0 0;
+}
+
+.mini-sta {
+    width: 100%;
+    /* background: green; */
+    /* padding: 30px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 10px;
+
+    /* background: red; */
+}
+
+.mini-sta_item {
+    width: 30%;
+    /* background: purple; */
+    border: 1px solid #000080;
+    border-radius: 4px;
+    padding: 10px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.item-infor {
+    color: #000080;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.item-value {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+.order-list {
+    /* margin-top: 20px; */
+    width: 100%;
+    /* background: red; */
+    /* height: 500px; */
+    border: 1px solid #000080;
+    /* padding: 10px; */
+    margin: 20px 10px;
+}
+
+.order {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #000080;
+    transition: .25s;
+}
+
+.order:hover {
+    background: #ececef;
+}
+
+.order-title {
+    display: flex;
+}
+
+.quantity-box {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.quantity-box .quantity {
+    margin-right: 7px;
+    color: rgb(0, 162, 255);
+}
+
+.order-action svg {
+    cursor: pointer;
+}
+
+.statistics {
+    margin-top: 10px;
+    width: 30%;
+    background: #ececef;
+    border-radius: 8px;
+    height: 100%;
+    /* padding: 30px; */
+    /* opacity: 0.1; */
+}
+
+.sta-infor {
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000080;
+}
+
+.desc {
+    margin-top: 10px;
+    color: rgb(0, 162, 255);
+    font-size: 28px;
+}

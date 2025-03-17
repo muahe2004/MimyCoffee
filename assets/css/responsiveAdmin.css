@@ -1,0 +1,159 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .toggle-menu {
+        display: none;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+}
+
+
+/* Tablet and mobile*/
+@media screen and (max-width: 991.98px) {
+    .catalog {
+        display: none;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: 1s;
+    }
+
+    .moblie-toggle {
+        z-index: 2;
+        position: fixed;
+        inset: 0 40% 0 0;
+        background: #fff;
+        transform: translateX(-100%);
+        transition: 1s;
+        padding-left: 15px;
+    }
+
+    .menu-checkbox:checked ~ .menu-overlay  {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-checkbox:checked ~ .moblie-toggle {
+        transform: translateX(0);
+    }
+
+    .toggle-nav{
+        margin-top: 10px;
+    }
+
+    .toggle-nav li {
+        margin-bottom: 10px;
+        font-size: 32px;
+
+        /* background: red; */
+        
+    }
+
+    .toggle-nav li a {
+        /* background: yellow; */
+        display: block;
+        padding: 10px;
+    }
+
+    .toggle-nav li a:hover {
+        background: #ececff;
+    }
+
+    .search {
+        width: 50%;
+    }
+
+    .search-input {
+        font-size: 16px;
+    }
+
+    .search-btn {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .body {
+        display: block;
+    }
+
+    .mini-sta {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .orders {
+        width: 100%;
+        /* padding-right: 100px; */
+        /* margin: 0 10px; */
+    }
+
+    .order-list {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .statistics {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .infor {
+        width: 100%;
+    }
+
+    .account-name {
+        display: none;
+    }
+} 
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 990.98px){
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    .search-input {
+        font-size: 11px;
+        padding-left: 40px;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .mini-sta_item {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .account {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .mini-sta {
+        display: block;
+    }
+
+    .orders {
+        padding: 0;
+    }
+
+    /* =================== QL San Pham===================== */
+    .checkbox {
+        display: none;
+    }
+
+    td {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Mimy</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/admin.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./assets/css/responsiveAdmin.css">
+</head>
+<body>
+    
+    <div class="main-content">
+        <!-- Danh mục -->
+        <div class="catalog">
+            <div class="catalog-item"><a href="admin.html">Tổng quan</a></div>
+            <div class="catalog-item"><a href="QLsanpham.html">Sản phẩm</a></div>
+            <!-- <div class="catalog-item"><a href="#!">Đơn hàng</a></div>
+            <div class="catalog-item"><a href="#!">Khách hàng</a></div>
+            <div class="catalog-item"><a href="#!">Khuyến mãi</a></div>
+            <div class="catalog-item"><a href="#!">Báo cáo</a></div>
+            <div class="catalog-item"><a href="https://www.facebook.com/profile.php?id=100078293521852">FaceBook</a></div>
+            <div class="catalog-item"><a href="#!">Tiktok</a></div>
+            <div class="catalog-item"><a href="#!">Youtube</a></div>
+            <div class="catalog-item"><a href="#!">Instagram</a></div> -->
+        </div>
+
+        <div class="infor">
+            <!-- Header -->
+            <header class="header">
+                <label for="menu-checkbox" class="toggle-menu">
+                    <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#000080" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                    </svg>
+                </label>
+                <!-- Tìm kiếm -->
+                <div class="search">
+                    <svg class="search-svg" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#000080" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                    </svg>
+                    <input class="search-input" type="text" name="search" id="search" placeholder="Nhập từ khóa để tìm kiếm">
+                    <div class="search-btn">Tìm kiếm</div>
+                </div>
+
+                <!-- Thông báo -->
+                <div class="notification">
+                    <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#000080" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>
+                    </svg>
+                    <span class="notif">11</span>
+                </div>
+
+                <!-- Tài khoản -->
+                <div class="account">
+                    <img src="./assets/img/a7.jpg" alt="" class="account-img">
+                    <span class="account-name">admin</span>
+                    <a href="login.html">
+                        <svg width="22px" height="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="#000080" d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z"/>
+                        </svg>
+                    </a>
+                </div>
+            </header>
+
+            <!-- Tablet and mobile header -->
+            <header class="mobile-header">
+                <input type="checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
+
+
+                <!-- Lớp phủ  -->
+                <label for="menu-checkbox" class="menu-overlay"></label>
+
+                <!-- Menu -->
+                <div class="moblie-toggle">
+                    <!-- Mobile nav -->
+                    <ul class="toggle-nav">
+                        <li><a href="admin.html" style="color: black;">Tổng quan</a></li>
+                        <li><a href="QLsanpham.html" style="color: black;">Sản phẩm</a></li>
+                        <!-- <li><a href="#!" style="color: black;">Đơn hàng</a></li>
+                        <li><a href="#!" style="color: black;">Khách hàng</a></li>
+                        <li><a href="#!" style="color: black;">Báo cáo</a></li>
+                        <li><a href="#!" style="color: black;">Facebook</a></li>
+                        <li><a href="#!" style="color: black;">Tiktok</a></li>
+                        <li><a href="#!" style="color: black;">Youtube</a></li>
+                        <li><a href="#!" style="color: black;">Instagram</a></li> -->
+                    </ul>
+                </div>
+            </header>
+            <!-- body -->
+            <div class="body">
+                <!-- Order -->
+                <div class="orders">
+                    <div class="mini-sta">
+                        <!-- Item 1 -->
+                        <div class="mini-sta_item">
+                            <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                            </svg>
+                            <div class="item-infor">
+                                <p class="item-title">Tổng số đơn hàng</p>
+                                <span class="item-value">0</span>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="mini-sta_item">
+                            <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                <path fill="#000080" d="M96 96V320c0 35.3 28.7 64 64 64H576c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zm64 160c35.3 0 64 28.7 64 64H160V256zM224 96c0 35.3-28.7 64-64 64V96h64zM576 256v64H512c0-35.3 28.7-64 64-64zM512 96h64v64c-35.3 0-64-28.7-64-64zM288 208a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V360c0 66.3 53.7 120 120 120H520c13.3 0 24-10.7 24-24s-10.7-24-24-24H120c-39.8 0-72-32.2-72-72V120z"/>
+                            </svg>
+                            <div class="item-infor">
+                                <p class="item-title">Doanh thu</p>
+                                <span class="item-value">0</span>
+                            </div>
+                        </div>
+
+                        <!-- Item 1 -->
+                        <div class="mini-sta_item">
+                            <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="#000080" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
+                            </svg>
+                            <div class="item-infor">
+                                <p class="item-title">Khách hàng</p>
+                                <span class="item-value">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- List order -->
+                    <div class="order-list">
+                        <!-- 1 -->
+                        <div class="order">
+                            <div class="order-title">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                </svg>
+                                <div class="quantity-box">
+                                    <span class="quantity">0</span>
+                                    <p>Đơn hàng chưa thanh toán</p>
+                                </div>
+                            </div>
+                            <div class="order-action">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path fill="#000080" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="order">
+                            <div class="order-title">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                </svg>
+                                <div class="quantity-box">
+                                    <span class="quantity">0</span>
+                                    <p>Đơn hàng chưa giao</p>
+                                </div>
+                            </div>
+                            <div class="order-action">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path fill="#000080" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="order">
+                            <div class="order-title">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                </svg>
+                                <div class="quantity-box">
+                                    <span class="quantity">0</span>
+                                    <p>Đơn hàng hủy</p>
+                                </div>
+                            </div>
+                            <div class="order-action">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path fill="#000080" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="order">
+                            <div class="order-title">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                </svg>
+                                <div class="quantity-box">
+                                    <span class="quantity">0</span>
+                                    <p>Đơn hàng chưa hoàn tất</p>
+                                </div>
+                            </div>
+                            <div class="order-action">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path fill="#000080" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="order">
+                            <div class="order-title">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="#000080" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                </svg>
+                                <div class="quantity-box">
+                                    <span class="quantity">0</span>
+                                    <p>Đơn hàng hoàn trả</p>
+                                </div>
+                            </div>
+                            <div class="order-action">
+                                <svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path fill="#000080" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="statistics">
+                    <div class="sta-infor">
+                        <h3 class="title">Doanh số</h3>
+                        <p class="desc">0</p>
+                    </div>
+
+                    <div class="sta-infor">
+                        <h3 class="title">Doanh thu</h3>
+                        <p class="desc">0</p>
+                    </div>
+
+                    <div class="sta-infor">
+                        <h3 class="title">Sản phẩm bán chạy</h3>
+                        <p class="desc">Chưa có dữ liệu</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+

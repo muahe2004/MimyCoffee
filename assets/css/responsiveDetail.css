@@ -1,0 +1,118 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* Tablet and mobile*/
+@media screen and (max-width: 991.98px) {
+
+
+
+    .detail {
+        display: block;
+    }
+
+    .detail-img {
+        width: 100%;
+        border: 1px solid #000080;
+    }
+
+    .detail-infor {
+        width: 100%;
+    }
+
+    .detail-number {
+        border-radius: 0;
+    }
+
+    .detail-note {
+        width: 100%;
+    }
+
+    .list-review {
+        display: block;
+    }
+
+    .review {
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: normal;
+        display: flex;
+    }
+
+    .review-avt {
+        width: 25%;
+        border-radius: 4px;
+        height: 100px;
+    }
+
+    .review-content {
+        align-items: normal;
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    .review-infor {
+        width: 74%;
+    }
+
+    .review-rate {
+        width: 30%;
+    }
+
+    .rated {
+        display: none;
+    }
+} 
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 990.98px){
+    .review {
+        padding: 5px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    .detail-infor {
+        padding: 5px;
+    }
+
+    .detail-img {
+        height: 300px;
+    }
+
+    .detail-row {
+        display: block;
+    }
+
+    .detail-column {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .add-detail {
+        width: 100%;
+    }
+
+    .reviews {
+        margin-top: 20px;
+    }
+
+    .review {
+        display: block;
+    }
+
+    .review-content {
+        width: 100%;
+    }
+
+    .review-avt {
+        width: 30%;
+        height: 80px;
+    }
+
+    .product-body {
+        margin-bottom: 10px;
+    }
+}
